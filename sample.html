@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COAST GUARD INTELLIGENCE FORCE</title>
+  <link rel="icon" href="cgif.png" type="image/x-icon">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      overflow-y: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #dde5f4, #b8c6e8);
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .screen-1 {
+      background: rgba(241, 247, 254, 0.9); /* Slight transparency for better readability */
+      padding: 2em;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+      position: absolute; /* Centering the box */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Adjust for perfect centering */
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+
+    .logo img {
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      height: 200px;
+      width: 200px;
+    }
+
+    .email, .password {
+      background: white;
+      box-shadow: 0 0 2em #e6e9f9;
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      border-radius: 20px;
+      color: #4d4d4d;
+    }
+
+    .email label, .password label {
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .email p, .password p {
+      font-size: 1em;
+      color: #555;
+      margin: 0;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+      padding-top: 1em;
+    }
+
+    .footer a {
+      color: #3e4684;
+      text-decoration: none;
+      margin: 0 0.5em;
+      transition: color 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #2f356a;
+    }
+  </style>
+</head>
+<body>
+  <div style="position: relative; width: 100%; height: 100%;">
+    <div class="screen-1">
+      <div class="logo" style="display: flex; justify-content: center; align-items: center;">
+        <img src="cgif.png" alt="CGIF Logo">
+      </div>
+      <div style="text-align: center; margin-top: 0em; margin-bottom: 2em;">
+        <p style="font-weight: bold; font-size: 2.3em; color: #333; margin: 0;">
+          COAST GUARD INTELLIGENCE FORCE
+        </p>
+      </div>
+
+      <div class="email">
+        <label for="rank-name">RANK & NAME</label>
+        <p>CGNO Mohammad Shadat A Taib</p>
+      </div>
+
+      <div class="password">
+        <label for="serial-no">Serial No</label>
+        <p>10875-C</p>
+      </div>
+
+      <div class="password">
+        <label for="designation">Designation</label>
+        <p>Member, Technical Intelligence Division</p>
+      </div>
+      
+      <div class="footer">
+        <span><a href="about.html">Instructions</a></span>
+      </div>
+    </div>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('background2.png'); background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 0.3; z-index: -1;"></div>
+  </div>
+</body>
+</html>
